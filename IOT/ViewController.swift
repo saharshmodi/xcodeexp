@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnclick: UIButton!
     @IBOutlet weak var lbl2: UILabel!
     
     @IBOutlet weak var seg: UISegmentedControl!
