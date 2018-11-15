@@ -43,10 +43,16 @@
                                     <segment title="Second"/>
                                 </segments>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afg-nZ-H8G">
+                                <rect key="frame" x="216" y="93" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="btnclick" destination="afg-nZ-H8G" id="gkn-vH-OoH"/>
                         <outlet property="lbl" destination="NqZ-TQ-6rk" id="ogh-IA-Tf7"/>
                         <outlet property="lbl2" destination="Ff7-hE-kFe" id="zOg-mA-BoH"/>
                         <outlet property="seg" destination="jrj-fO-Emc" id="9Mh-pm-aCE"/>
@@ -54,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87" y="23"/>
+            <point key="canvasLocation" x="70" y="23"/>
         </scene>
     </scenes>
 </document>
